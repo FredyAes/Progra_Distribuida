@@ -1,0 +1,184 @@
+﻿/* Estilos del cuerpo */
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230523/pngtree-3d-blue-hexagonal-wallpaper-4k-hd-desktop-wallpapers-image_2602737.jpg'); /* Imagen de fondo del body */
+    background-size: cover; /* Asegura que la imagen cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Mantiene la imagen en su lugar cuando se desplaza el contenido */
+    height: 100vh; /* Altura del body igual a la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+/* Estilos del contenedor */
+.container {
+    background: linear-gradient(to bottom right, #f0f0f0, #ffffff); /* Fondo con un gradiente difuminado */
+    padding: 1rem 2rem; /* Ajuste del padding para reducir el espacio superior e inferior */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+    margin-top: 2rem; /* Margen superior ajustado para separar del contenido superior */
+    margin-bottom: 20px; /* Margen inferior entre tarjetas */
+    position: relative; /* Posición relativa para el pseudoelemento */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 1200px; /* Limita el ancho máximo para mantener el texto en una sola línea */
+    margin: auto; /* Centra el contenedor horizontalmente */
+}
+
+    /* Fondo difuminado en el contenedor */
+    .container:before {
+        content: ""; /* Pseudoelemento para el fondo difuminado */
+        display: block; /* Muestra el pseudoelemento como bloque */
+        position: absolute; /* Posiciona el pseudoelemento en relación al contenedor */
+        top: 0; /* Alinea al inicio del contenedor */
+        left: 0; /* Alinea al inicio del contenedor */
+        width: 100%; /* Ancho del pseudoelemento igual al del contenedor */
+        height: 100%; /* Altura del pseudoelemento igual a la del contenedor */
+        background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1)); /* Fondo difuminado en el pseudoelemento */
+        z-index: -1; /* Coloca el pseudoelemento detrás del contenido del contenedor */
+    }
+
+/* Estilos del texto centrado */
+.text-center {
+    text-align: center; /* Centra el texto */
+    margin: 2rem 0; /* Margen superior e inferior para centrar el texto y evitar separación excesiva */
+}
+
+.display-6 {
+    font-size: 2rem; /* Tamaño grande del título */
+    font-weight: 700; /* Peso de fuente negrita */
+    color: #333333; /* Color del texto */
+    margin-bottom: 1rem; /* Aumenta la separación inferior del título */
+}
+
+h3 {
+    font-size: 1.5rem; /* Tamaño del subtítulo ajustado */
+    font-weight: 400; /* Peso de fuente normal */
+    color: #666666; /* Color del texto */
+    margin: 1rem auto 2rem; /* Aumenta la separación superior e inferior del subtítulo */
+    max-width: 100%; /* Ajuste del ancho máximo para mejorar la legibilidad */
+    text-align: center; /* Centra el texto */
+    line-height: 1.4; /* Ajusta la altura de línea para mejorar la lectura */
+}
+
+/* Estilos de las tarjetas */
+.card {
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta cualquier desbordamiento del contenido */
+    position: relative; /* Posición relativa para el texto */
+    margin-bottom: 20px; /* Margen inferior entre tarjetas */
+    transition: transform 0.3s ease; /* Transición para el zoom */
+}
+
+    .card:hover {
+        transform: scale(1.05); /* Zoom en la tarjeta al pasar el cursor */
+    }
+
+    .card img {
+        max-width: 300px; /* Ancho máximo de la imagen */
+        height: auto; /* Altura automática para mantener las proporciones */
+    }
+
+.card-body {
+    flex-grow: 1; /* Permite que el contenido se expanda */
+    padding: 20px; /* Espaciado interno del cuerpo de la tarjeta */
+    display: flex; /* Muestra el contenido como un contenedor flexible */
+    flex-direction: column; /* Orientación vertical del contenido */
+    justify-content: center; /* Centra el contenido verticalmente */
+}
+
+.card-body-left {
+    align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.card-body-right {
+    align-items: flex-end; /* Alinea los elementos al final del contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+.card-title {
+    font-size: 3rem; /* Tamaño del título de la tarjeta */
+    color: white; /* Color del texto del título */
+    margin-bottom: 2.45rem; /* Elimina el margen */
+    text-align: center; /* Centra el texto del título */
+}
+
+.card-text {
+    font-size: 1.75rem; /* Tamaño del texto de la tarjeta */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    color: white; /* Color del texto */
+    text-align: justify; /* Justifica el texto para alinearlo a ambos márgenes */
+    margin-bottom: 2rem; /* Margen inferior del texto */
+}
+
+/* Estilos del botón */
+.btn-primary {
+    background-color: #0048b3; /* Color de fondo del botón */
+    border-color: #0048b3; /* Color del borde del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 1rem; /* Tamaño de la fuente del botón */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves para color y escala */
+    font-size: 1.5rem; /* Aumenta el tamaño del texto del botón */
+    padding: 12px 24px; /* Ajusta el padding para aumentar el tamaño del botón */
+    margin-top: 1.5rem; /* Espacio superior del botón */
+    display: block; /* Cambia el display para centrar el botón */
+}
+
+.btn-primary-dark {
+    background-color: #000000; /* Color de fondo oscuro del botón */
+    border-color: #000000; /* Color del borde oscuro del botón */
+}
+
+.btn-primary:hover {
+    background-color: #003399; /* Color de fondo al pasar el cursor */
+    transform: scale(1.05); /* Escala ligeramente el botón */
+}
+
+.btn-primary-dark:hover {
+    background-color: #222222; /* Color de fondo oscuro al pasar el cursor */
+    transform: scale(1.05); /* Escala ligeramente el botón */
+}
+
+/* Estilos de la barra de navegación */
+header {
+    background: #ffffff; /* Fondo blanco */
+    border-bottom: 1px solid #e0e0e0; /* Borde inferior sutil */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 2rem; /* Espacio inferior para separar del contenido principal */
+}
+
+.navbar {
+    padding: 0.5rem 2rem; /* Espaciado interno de la barra de navegación */
+}
+
+.navbar-nav {
+    margin: 0; /* Elimina el margen por defecto de los elementos de la barra de navegación */
+}
+
+.nav-link {
+    color: #333333; /* Color del texto de los enlaces */
+    font-size: 1rem; /* Tamaño de fuente de los enlaces */
+    font-weight: 500; /* Peso de fuente de los enlaces */
+    padding: 0.5rem 1rem; /* Espaciado interno de los enlaces */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transiciones suaves para color y fondo */
+}
+
+    .nav-link:hover, .nav-link:focus {
+        color: #0048b3; /* Color del texto al pasar el cursor */
+        background-color: rgba(0, 72, 179, 0.1); /* Fondo suave al pasar el cursor */
+        border-radius: 5px; /* Bordes redondeados al pasar el cursor */
+    }
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño de fuente para la marca de la barra de navegación */
+    font-weight: 700; /* Peso de fuente para la marca de la barra de navegación */
+    color: #333333; /* Color del texto de la marca */
+}
+
+    .navbar-brand:hover, .navbar-brand:focus {
+        color: #0048b3; /* Color del texto de la marca al pasar el cursor */
+    }
+
+main {
+    padding: 1rem 0; /* Espaciado vertical en el área principal */
+}

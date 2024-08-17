@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Anime favorito";
+}
+
+<div class="container">
+    <div class="text-center mb-4">
+        <h1 class="display-6">Animes favoritos</h1>
+        <h3 class="text-secondary font-italic">
+            Los animes que pensamos son los más relevantes para ver
+        </h3>
+    </div>
+</div>
+
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Blue Lock -->
+        <div class="col-md-12 mb-4">
+            <div class="card d-flex flex-row" style="background: linear-gradient(to right, #0048b3, #66a3ff);">
+                <img src="https://images.justwatch.com/poster/301084028/s718/bluelock.jpg" class="img-fluid" alt="Blue Lock">
+                <div class="card-body card-body-left">
+                    <h5 class="card-title">Blue Lock</h5>
+                    <p class="card-text">
+                        Blue Lock es un anime de fútbol que sigue la historia de Yoichi Isagi, un joven delantero que se une a un programa de entrenamiento especial para convertirse en el mejor delantero del mundo.
+                    </p>
+                    <a class="btn btn-primary" asp-area="" asp-page="/BlueLock" style="margin-top: auto;">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <!-- Espacio entre las tarjetas -->
+        <div class="w-100 mb-4"></div>
+        <!-- Black Clover -->
+        <div class="col-md-12 mb-4">
+            <div class="card d-flex flex-row-reverse" style="background: linear-gradient(to left, #000000, #444444);">
+                <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/e108ae17d8d0407417cac40eb52d849a.jpe" class="img-fluid" alt="Black Clover">
+                <div class="card-body card-body-right">
+                    <h5 class="card-title">Black Clover</h5>
+                    <p class="card-text">
+                        Black Clover sigue la historia de Asta, un joven sin poderes mágicos en un mundo donde la magia lo es todo. A pesar de esto, sueña con convertirse en el Rey Mago.
+                    </p>
+                    <a class="btn btn-primary btn-primary-dark" asp-area="" asp-page="/BlackClover" style="margin-top: auto;">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
