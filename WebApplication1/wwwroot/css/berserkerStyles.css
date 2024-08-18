@@ -24,3 +24,13 @@
     color: #000000; /* Color de texto blanco para contraste con el fondo negro */
 }
 
+/* Estilo para la clase BK */
+.BK {
+    color: red; /* Color inicial del texto */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+    /* Cambia la tonalidad del rojo cuando el cursor está encima */
+    .BK:hover {
+        color: darkred; /* Color más oscuro de rojo cuando el cursor está encima */
+    }

@@ -337,19 +337,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adolfo Rdz\\.nuget\\packages\\": {}
+    "C:\\Users\\alfre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adolfo Rdz\\Desktop\\7mo semestre\\programacion distribuida\\ejemplos de clase\\ejemplo2equipo\\Distributed_Programming\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Adolfo Rdz\\Desktop\\7mo semestre\\programacion distribuida\\ejemplos de clase\\ejemplo2equipo\\Distributed_Programming\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\Adolfo Rdz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adolfo Rdz\\Desktop\\7mo semestre\\programacion distribuida\\ejemplos de clase\\ejemplo2equipo\\Distributed_Programming\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Adolfo Rdz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
