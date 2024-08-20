@@ -1,0 +1,13 @@
+﻿.bodyHunter {
+    background-image: url(https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/2e54344c7cc1675af721b4021222230f.jpg)
+}
+
+.BKH {
+    color: green; /* Color inicial del texto */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+    /* Cambia la tonalidad del rojo cuando el cursor está encima */
+    .BKH:hover {
+        color: darkgreen; /* Color más oscuro de rojo cuando el cursor está encima */
+    }
