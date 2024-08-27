@@ -1,0 +1,196 @@
+﻿@page
+@{
+    ViewData["Title"] = "Anime favorito";
+}
+
+<body class=".BL-body">
+    <!-- Información del Cliente -->
+    <form id="purchaseForm">
+        <div class="mb-3">
+            <label for="firstName" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Ingrese su nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Ingrese su apellido" required>
+        </div>
+        <div class="mb-3">
+            <label for="address" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
+        </div>
+
+        <!-- Selección de Mangas -->
+        <h2 class="text-center mt-5 mb-4">Selecciona los mangas</h2>
+        <!-- Berserk -->
+        <h3>Berserk</h3>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="320" id="berserk1">
+            <label class="form-check-label" for="berserk1">
+                Berserk Volumen 1 - $320
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="320" id="berserk2">
+            <label class="form-check-label" for="berserk2">
+                Berserk Volumen 2 - $320
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="320" id="berserk3">
+            <label class="form-check-label" for="berserk3">
+                Berserk Volumen 3 - $320
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="320" id="berserk4">
+            <label class="form-check-label" for="berserk4">
+                Berserk Volumen 4 - $320
+            </label>
+        </div>
+
+        <!-- Blue Lock -->
+        <h3>Blue Lock</h3>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="149" id="bluelock1">
+            <label class="form-check-label" for="bluelock1">
+                Blue Lock Volumen 1 - $149
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="149" id="bluelock2">
+            <label class="form-check-label" for="bluelock2">
+                Blue Lock Volumen 2 - $149
+            </label>
+        </div>
+
+        <!-- HunterXHunter -->
+        <h3>HunterXHunter</h3>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="200" id="hxh1">
+            <label class="form-check-label" for="hxh1">
+                HunterXHunter Volumen 1 - $200
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="200" id="hxh2">
+            <label class="form-check-label" for="hxh2">
+                HunterXHunter Volumen 2 - $200
+            </label>
+        </div>
+
+        <!-- Black Clover -->
+        <h3>Black Clover</h3>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="149" id="blackclover1">
+            <label class="form-check-label" for="blackclover1">
+                Black Clover Volumen 1 - $149
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="149" id="blackclover2">
+            <label class="form-check-label" for="blackclover2">
+                Black Clover Volumen 2 - $149
+            </label>
+        </div>
+
+        <!-- Toilet-bound Hanako-kun -->
+        <h3>Toilet-bound Hanako-kun</h3>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="149" id="hanako1">
+            <label class="form-check-label" for="hanako1">
+                Toilet-bound Hanako-kun Volumen 1 - $149
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input manga-checkbox" type="checkbox" value="149" id="hanako2">
+            <label class="form-check-label" for="hanako2">
+                Toilet-bound Hanako-kun Volumen 2 - $149
+            </label>
+        </div>
+
+        <!-- Suma Total -->
+        <div class="form-group mt-4">
+            <label for="totalSum">Suma Total:</label>
+            <input type="text" id="totalSum" class="form-control" readonly />
+        </div>
+
+        <button type="button" class="btn btn-success mt-3" onclick="completePurchase()">Realizar Pedido</button>
+    </form>
+
+    <!-- Mensaje de Confirmación -->
+    <div id="confirmationMessage" style="display:none;">
+        <h3>¡Pedido realizado con éxito!</h3>
+        <p>Gracias por su compra.</p>
+    </div>
+
+    <!-- Ticket de Compra -->
+    <div id="receipt" style="display:none; margin-top: 20px;">
+        <h3>Ticket de Compra</h3>
+        <p id="customerInfo"></p>
+        <p id="purchasedItems"></p>
+        <p id="totalAmount"></p>
+        <p id="vatAmount"></p>
+        <p><strong>¡Gracias por su compra!</strong></p>
+    </div>
+
+    <script>
+        function updateSum() {
+            let checkboxes = document.querySelectorAll('.manga-checkbox');
+            let totalSum = 0;
+
+            checkboxes.forEach(function (checkbox) {
+                if (checkbox.checked) {
+                    totalSum += parseFloat(checkbox.value);
+                }
+            });
+
+            document.getElementById('totalSum').value = '$' + totalSum.toFixed(2);
+        }
+
+        // Add event listeners to all checkboxes to trigger sum update
+        document.querySelectorAll('.manga-checkbox').forEach(function (checkbox) {
+            checkbox.addEventListener('change', updateSum);
+        });
+
+        function completePurchase() {
+            document.getElementById('purchaseForm').style.display = 'none';
+            document.getElementById('confirmationMessage').style.display = 'block';
+
+            generateReceipt(); // Automatically generate the receipt upon purchase completion
+        }
+
+        function generateReceipt() {
+            let firstName = document.getElementById('firstName').value;
+            let lastName = document.getElementById('lastName').value;
+            let address = document.getElementById('address').value;
+            let email = document.getElementById('email').value;
+            let totalSum = document.getElementById('totalSum').value;
+
+            let checkboxes = document.querySelectorAll('.manga-checkbox');
+            let items = '';
+            let totalAmount = 0;
+
+            checkboxes.forEach(function (checkbox) {
+                if (checkbox.checked) {
+                    let label = document.querySelector('label[for="' + checkbox.id + '"]').innerText;
+                    items += label + '<br>';
+                    totalAmount += parseFloat(checkbox.value);
+                }
+            });
+
+            let vatAmount = totalAmount * 0.16;  // 16% IVA
+            let totalWithVAT = totalAmount + vatAmount;
+
+            document.getElementById('customerInfo').innerHTML = `<strong>Cliente:</strong> ${firstName} ${lastName}<br><strong>Dirección:</strong> ${address}<br><strong>Correo Electrónico:</strong> ${email}`;
+            document.getElementById('purchasedItems').innerHTML = `<strong>Artículos Comprados:</strong><br>${items}`;
+            document.getElementById('totalAmount').innerHTML = `<strong>Total sin IVA:</strong> $${totalAmount.toFixed(2)}<br><strong>Total con IVA:</strong> $${totalWithVAT.toFixed(2)}`;
+            document.getElementById('vatAmount').innerHTML = `<strong>IVA (16%):</strong> $${vatAmount.toFixed(2)}`;
+
+            document.getElementById('receipt').style.display = 'block';
+        }
+    </script>
+</body>
