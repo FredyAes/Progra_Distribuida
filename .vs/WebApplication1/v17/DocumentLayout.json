@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\",
+  "WorkspaceRootPath": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\alfre\\source\\repos\\webaplication_1\\webapplication1\\pages\\bluelock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\bluelock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\bluelock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\alfre\\source\\repos\\webaplication_1\\webapplication1\\wwwroot\\css\\bluelockstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\blackclover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\blackclover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\toilet-bound hanako-kun.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\toilet-bound hanako-kun.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\wwwroot\\css\\bluelockstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\bluelockstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\alfre\\source\\repos\\webaplication_1\\webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\alfre\\source\\repos\\webaplication_1\\webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\alfre\\source\\repos\\webaplication_1\\webapplication1\\pages\\formulario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\formulario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +26,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlueLock.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\BlueLock.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\BlueLock.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\BlueLock.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\BlueLock.cshtml",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAowG8AAAAWAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Toilet-bound Hanako-kun.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T14:14:08.488Z",
+              "WhenOpened": "2024-09-06T15:20:23.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlueLockStyles.css",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T15:57:54.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BlueLockStyles.css",
-              "DocumentMoniker": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "ToolTip": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-27T17:51:35.527Z",
+              "Title": "BlackClover.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlackClover.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\BlackClover.cshtml",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlackClover.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\BlackClover.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T15:20:20.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABZAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BlueLock.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlueLock.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\BlueLock.cshtml",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlueLock.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\BlueLock.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAswHcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T06:50:28.409Z",
+              "WhenOpened": "2024-09-02T14:14:08.488Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Formulario.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\Formulario.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Formulario.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\Formulario.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Formulario.cshtml",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAAAMMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-27T17:45:10.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T05:23:45.654Z"
             }
           ]
         }

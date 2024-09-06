@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "srofcNLqPp0=",
+  "dgSpecHash": "NzW45iKCci8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alfre\\source\\repos\\WebAplication_1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\aleja\\Source\\Repos\\Progra_Distribuida\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alfre\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
+    "C:\\Users\\aleja\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
   ],
   "logs": []
 }
