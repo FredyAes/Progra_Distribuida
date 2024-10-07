@@ -1,27 +1,36 @@
 ﻿@page
+@model WebApplication1.Pages.FormularioModel
 @{
     ViewData["Title"] = "Anime favorito";
 }
 
 <body class=".BL-body">
     <!-- Información del Cliente -->
-    <form id="purchaseForm">
+    <form method="post" class="needs-validation" id="purchaseForm" novalidate>
         <div class="mb-3">
-            <label for="firstName" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Ingrese su nombre" required>
+            <label asp-for="FirstName" class="form-label">Nombre</label>
+            <input asp-for="FirstName" class="form-control" id="firstName" placeholder="Ingrese su nombre" required>
+            <span asp-validation-for="FirstName" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label for="lastName" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Ingrese su apellido" required>
+            <label asp-for="LastName" class="form-label">Apellido</label>
+            <input asp-for="LastName" class="form-control" id="lastName" placeholder="Ingrese su apellido" required>
+            <span asp-validation-for="LastName" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label for="address" class="form-label">Dirección</label>
-            <input type="text" class="form-control" id="address" placeholder="Ingrese su dirección" required>
+            <label asp-for="Address" class="form-label">Dirección</label>
+            <input asp-for="Address" class="form-control" id="address" placeholder="Ingrese su dirección" required>
+            <span asp-validation-for="Address" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label for="email" class="form-label">Correo Electrónico</label>
-            <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
+            <label asp-for="EmailC" class="form-label">Correo Electrónico</label>
+            <input asp-for="EmailC" type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
+            <span asp-validation-for="EmailC" class="text-danger"></span>
         </div>
+
+        @section Scripts {
+            <partial name="_ValidationScriptsPartial" />
+        }
 
         <!-- Selección de Mangas -->
         <h2 class="text-center mt-5 mb-4">Selecciona los mangas</h2>

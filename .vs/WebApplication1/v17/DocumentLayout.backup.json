@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\bluelock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\bluelock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\blackclover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\blackclover.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\contacto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\contacto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\toilet-bound hanako-kun.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\toilet-bound hanako-kun.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\formulario.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\formulario.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\wwwroot\\css\\bluelockstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\bluelockstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\formulario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\formulario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|c:\\users\\aleja\\source\\repos\\progra_distribuida\\webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7C22B90-2DAF-49FF-B822-CB84C5766634}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,55 +54,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Toilet-bound Hanako-kun.cshtml",
-              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
-              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Toilet-bound Hanako-kun.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T15:20:23.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BlueLockStyles.css",
-              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\BlueLockStyles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-06T15:57:54.337Z",
+              "Title": "Formulario.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Formulario.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Formulario.cshtml",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Formulario.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Formulario.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T14:47:12.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlackClover.cshtml",
-              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlackClover.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\BlackClover.cshtml",
-              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlackClover.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\BlackClover.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T15:20:20.614Z",
+              "DocumentIndex": 2,
+              "Title": "Formulario.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Formulario.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Formulario.cshtml.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Formulario.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Formulario.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T14:46:56.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlueLock.cshtml",
-              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlueLock.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\BlueLock.cshtml",
-              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\BlueLock.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\BlueLock.cshtml",
-              "ViewState": "AgIAAIEAAAAAINVpcpDZv3cAAAAKAAAAAAAAAA==",
+              "Title": "Contacto.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Contacto.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Contacto.cshtml",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Contacto.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Contacto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T14:14:08.488Z",
+              "WhenOpened": "2024-09-11T01:02:56.042Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contacto.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Contacto.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Contacto.cshtml.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Contacto.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Contacto.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:06:42.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Progra_Distribuida\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T01:00:55.921Z"
             }
           ]
         }
